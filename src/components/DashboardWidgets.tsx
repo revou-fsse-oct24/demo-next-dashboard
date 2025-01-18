@@ -46,7 +46,7 @@ export default function DashboardWidgets() {
       {widgets.map((widget, index) => (
         <div
           key={index}
-          className="bg-card p-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
+          className="bg-card p-6 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-110"
         >
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-lg font-semibold text-card-foreground">

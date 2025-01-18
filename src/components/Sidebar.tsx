@@ -23,6 +23,7 @@ export default function Sidebar() {
     { href: "/", label: "Dashboard", icon: LayoutDashboard },
     { href: "/product", label: "Product", icon: Package },
     { href: "/products", label: "Products", icon: Truck },
+    { href: "/product-ssg", label: "Product SSG", icon: Truck },
     { href: "/customers", label: "Customers", icon: Users },
     { href: "/sales", label: "Sales", icon: DollarSign },
     { href: "/faq", label: "FAQ", icon: BarChart },
@@ -38,7 +39,7 @@ export default function Sidebar() {
       <div className="flex justify-end p-4">
         <button
           onClick={() => setIsCollapsed(!isCollapsed)}
-          className="text-muted-foreground hover:text-foreground focus:outline-none transition-colors duration-200"
+          className="text-muted-foreground hover:text-foreground focus:outline-none transition-colors duration-300"
         >
           {isCollapsed ? <ChevronRight size={24} /> : <ChevronLeft size={24} />}
         </button>

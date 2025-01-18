@@ -69,7 +69,7 @@ const data = {
     },
     {
       label: "Orders",
-      data: [28, 48, 40, 19, 86, 27, 90],
+      data: [28000, 48, 40, 19, 86, 27, 90],
       borderColor: "rgb(255, 99, 132)",
       backgroundColor: "rgba(255, 99, 132, 0.5)",
     },
